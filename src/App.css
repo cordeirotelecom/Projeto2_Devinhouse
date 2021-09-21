@@ -1,0 +1,156 @@
+/* Header CSS */
+
+.header-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dc1a66;
+}
+
+.title {
+    font-size: 24px;
+    color: #FFF;
+    padding: 0px 20px;
+}
+
+span {
+    padding: 20px;
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/* Dashboard CSS */
+
+.dashboard {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.graph-area {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+
+/* MessageFields CSS */
+
+.message-top-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-title {
+    font-size: 24px;
+    color: #dc1a66;
+}
+
+.message-filter-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-filter-item {
+    width: 100%
+}
+
+select {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    height: 38px;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    height: 34px;
+}
+
+.message-body-container {
+    width: 60%;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+
+/* MessageList CSS */
+
+#message-list-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#message-list-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #dc1a66;
+    color: white;
+}
+
+#message-list-table td,
+#message-list-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#message-list-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#message-list-table tr:hover {
+    background-color: #ddd;
+}
+
+
+/* General CSS */
+
+button {
+    border: 0;
+    background-color: #dc1a66;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 15px;
+    gap: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dc1a66;
+}
