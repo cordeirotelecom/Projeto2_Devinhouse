@@ -1,8 +1,7 @@
 <h1> This project was Create React App. </h1>
-
+<br>
 <h2> Getting Started with Create React App </h2>
 This project was Create React App for DevInhouse.
-
 <br>
 <h2> In the project directory, you can run: </h2>
 <br>
