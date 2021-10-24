@@ -1,8 +1,13 @@
 <h1> This project was Create React App. </h1>
 
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
+
+devinhouse-projeto-paralelo
+Available Scripts
 In the project directory, you can run:
 
-yarn start
+<code> yarn start </code>
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
